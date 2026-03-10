@@ -28,7 +28,7 @@ team_df <- tibble('team' = the_teams,
   dplyr::filter(year >= 2016) %>%
   dplyr::mutate(team_url = stringr::str_remove_all(team_url,"/cbb/schools/|/men/"))
 
-readr::write_csv(team_df,"~/AnalyticsShare/David/projects/educational/2026_bbb/data/bb_Team_masterlist.csv")
+readr::write_csv(team_df,"data/bb_Team_masterlist.csv")
 
 
 
@@ -62,7 +62,7 @@ scrape_team_gamelog <- function(team, season) {
 }
 
 
-seasons <- 2022:2026
+seasons <- 2026
 
 all_games_20 <- purrr::map(seasons, function(season) {
 
@@ -76,7 +76,9 @@ all_games_20 <- purrr::map(seasons, function(season) {
   })
 })
 
-all_games_20[[1]] |> readr::write_csv("data/raw_data/bb_2026_season.csv")
+all_games_20[[1]] %>% glimpse()
+
+all_games_20[[1]] |> readr::write_csv("data/raw_data/bb_2026_season_pulled_mar7.csv")
 # season <- 2025
 # team_df$team[11:365]
 # team_df$team[28]

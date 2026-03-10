@@ -1,0 +1,52 @@
+RK  - rank
+Gtm - season game number for team
+Opp - opponent
+...4 - (@ = home, N = Neutral, '' = Away)
+Type -
+ScoreRslt - game result (W/L)
+ScoreTm - points scored
+ScoreOpp - opponent points scored
+ScoreOT -
+TeamFG  - Field Goals
+TeamFGA - Field Goal Attempts
+TeamFG_pct - Field Goal Percentage
+Team3P  - 3-point field goals
+Team3PA - 3-point field goal attempts
+Team3P_pct - 3-point field goal Percentage
+Team2P  - 2-point field goals
+Team2PA - 2-point field goal attempts
+Team2P_pct - 2-point field goal Percentage
+TeameFG_pct - effective field goal percentage
+TeamFT - Free throws
+TeamFTA - Free throw attempts
+TeamFT_pct - Free throw percentage
+TeamORB - Offensive Rebounds
+TeamDRB - Defensive Rebounds
+TeamTRB - Total Rebound
+TeamAST - Assists
+TeamSTL - Steals
+TeamBLK - Blocks
+TeamTOV - Turnovers
+TeamPF - Personal Fouls
+
+OpponentFG  - Opponent Field Goals
+OpponentFGA - Opponent Field Goal Attempts
+OpponentFG_pct - Opponent Field Goal Percentage
+Opponent3P  - Opponent 3-point field goals
+Opponent3PA - Opponent 3-point field goal attempts
+Opponent3P_pct - Opponent 3-point field goal Percentage
+Opponent2P  - Opponent 2-point field goals
+Opponent2PA - Opponent 2-point field goal attempts
+Opponent2P_pct - Opponent 2-point field goal Percentage
+OpponenteFG_pct - Opponent effective field goal percentage
+OpponentFT - Opponent Free throws
+OpponentFTA - Opponent Free throw attempts
+OpponentFT_pct - Opponent Free throw percentage
+OpponentORB - Opponent Offensive Rebounds
+OpponentDRB - Opponent Defensive Rebounds
+OpponentTRB - Opponent Total Rebound
+OpponentAST - Opponent Assists
+OpponentSTL - Opponent Steals
+OpponentBLK - Opponent Blocks
+OpponentTOV - Opponent Turnovers
+OpponentPF  - Opponent Personal Fouls
